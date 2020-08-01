@@ -6,9 +6,15 @@ class Dog
   
   @@all = []
   
+<<<<<<< HEAD
   def initialize(name)
     @name = name
     save
+=======
+  def initialize(dog)
+    @name = name
+    @@all << self
+>>>>>>> 9ac247a2504a3aa361bfc1fea07d4b46ce3eb907
     
   end
   
@@ -28,9 +34,14 @@ class Dog
     @@all.clear
   end
   
+<<<<<<< HEAD
   def save 
     @@all << self 
   end 
+=======
+  
+  
+>>>>>>> 9ac247a2504a3aa361bfc1fea07d4b46ce3eb907
   
   
 end
